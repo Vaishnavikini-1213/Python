@@ -1,0 +1,48 @@
+/* Light Theme (default) */
+body {
+    background: linear-gradient(to right, #f8f9fa, #dee2e6);
+    font-family: 'Segoe UI', sans-serif;
+    transition: background 0.3s ease;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.card {
+    border-radius: 15px;
+    background: white;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.password-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.qr-img {
+    border: 5px solid #e9ecef;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Dark Theme */
+body.dark {
+    background: #121212;
+    color: #e4e4e4;
+}
+
+body.dark .card {
+    background: #1e1e1e;
+    color: #e4e4e4;
+}
+
+body.dark input,
+body.dark .form-control,
+body.dark .form-check-label {
+    background: #2a2a2a;
+    color: #fff;
+    border-color: #444;
+}
